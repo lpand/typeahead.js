@@ -726,7 +726,7 @@
     })(this);
     var html = function() {
         return {
-            wrapper: '<span class="twitter-typeahead"></span>',
+            wrapper: '<div class="twitter-typeahead"></div>',
             dropdown: '<span class="tt-dropdown-menu"></span>',
             dataset: '<div class="tt-dataset-%CLASS%"></div>',
             suggestions: '<span class="tt-suggestions"></span>',
@@ -737,8 +737,7 @@
         "use strict";
         var css = {
             wrapper: {
-                position: "relative",
-                display: "inline-block"
+                position: "relative"
             },
             hint: {
                 position: "absolute",
